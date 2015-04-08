@@ -1,0 +1,39 @@
+##
+# P_list - Ruby Cucumber Automation
+#
+# Revision History:
+# -----------------
+# Creator Name  : Qwinix QA
+# Modifier By   : <NAME>,<MODIFY DATE>,<REASON>
+#
+# @description: This file contains execution order of features. The highest number features executes first in the order
+
+##
+#join
+
+
+##
+#Login
+features/plist_login.feature : 799
+# features/plist_forgot_pwd.feature : 20
+
+##
+#Create and Participate Opportunity 
+# features/stream/join/plist_join.feature : 800
+# features/stream/admin/admin_authorize_user.feature : 799
+# features/stream/opportunity/plist_create_opp.feature : 798
+# features/stream/opportunity/plist_participate_opp.feature : 797
+# features/stream/opportunity/plist_acceptandsign_opp.feature : 796
+# features/stream/opportunity/edit_user_details.feature : 10
+
+# ##
+# #admin
+# features/plist_admin_login.feature : 798
+# features/stream/admin/admin_lock_unlock.feature : 700
+# features/stream/admin/admin_role.feature : 699
+
+# features/stream/admin/admin_felters.feature : 697
+# features/stream/admin/admin_profile.feature : 696
+# features/stream/admin/admin_banks_opportunities.feature : 695
+# features/stream/admin/admin_user_reg.feature : 690
+
